@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+	<title>Search</title>
+</head>
+<body>
+<nav class="breadcrumb is-centered has-bullet-separator breadcrumb is-large" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/">Main</a></li>
+    <li class="is-active"><a href="#" aria-current="page">Search</a></li>
+  </ul>
+</nav>
+
+<form action="/result" method="GET">
+	<div class="field has-addons">
+	  <div class="control">
+	    <input class="input" type="text" name="q" id="q">
+	  </div>
+	  <div class="control">
+	    <button class="button is-info" type="submit">
+	      Search
+	    </button>
+	  </div>
+	</div>
+</form>
+
+
+</body>
+</html>
